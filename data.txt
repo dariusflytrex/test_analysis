@@ -10,3 +10,9 @@ test_add_package_happy_flow:15.7795s
 test_add_package_missing_param:15.3449s
 test_add_package_wrong_param_alphabet:14.5313s
 test_user_header:15.4968s
+new data from 31/Oct/12:54test_add_package_wrong_param_symbols:18.9331s
+test_add_package_cancel_packages:15.7812s
+test_add_package_happy_flow:15.7795s
+test_add_package_missing_param:15.3449s
+test_add_package_wrong_param_alphabet:14.5313s
+test_user_header:15.4968s
