@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - postgres@192.168.99.100" uuid="c8b25de9-d4b8-4212-81fe-26a5355e00e9">
+      <secret-storage>master_key</secret-storage>
+      <user-name>deliverance</user-name>
+      <introspection-scope>deliverance:deliverance,pg_catalog,public</introspection-scope>
+      <resolve-scope>deliverance:deliverance,public</resolve-scope>
+    </data-source>
+  </component>
+</project>
