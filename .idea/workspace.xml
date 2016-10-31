@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d9ea3403-48ca-42d1-b0cd-5a67de29baf9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.txt" afterPath="$PROJECT_DIR$/data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.py" afterPath="$PROJECT_DIR$/time.py" />
     </list>
     <ignored path="deliverance.iws" />
@@ -53,11 +54,21 @@
       <file leaf-file-name="time.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/time.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,6 +124,7 @@
         <option value="$PROJECT_DIR$/blackbox/try.txt" />
         <option value="$PROJECT_DIR$/blackbox/test.txt" />
         <option value="$PROJECT_DIR$/blackbox/time.py" />
+        <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/time.py" />
       </list>
     </option>
@@ -1019,7 +1031,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deliverance/templates/account/signup.html" />
     <entry file="file://$USER_HOME$/.PyCharm2016.2/system/remote_sources/1034364179/-183260405/django/contrib/staticfiles/views.py" />
     <entry file="file://$USER_HOME$/.PyCharm2016.2/system/remote_sources/1034364179/-183260405/django/contrib/staticfiles/finders.py" />
     <entry file="file://$PROJECT_DIR$/node_modules/systemjs/dist/system.src.js" />
@@ -1109,12 +1120,20 @@
     <entry file="file://$PROJECT_DIR$/blackbox/test_dashboard.py" />
     <entry file="file://$PROJECT_DIR$/blackbox/test_users.py" />
     <entry file="file://$PROJECT_DIR$/blackbox/time.py" />
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="300">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
