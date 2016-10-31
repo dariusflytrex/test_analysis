@@ -27,10 +27,9 @@ def find_total_time():
 
 def push_to_git():
     time_now = time.strftime("%d/%b_%H:%M")
-    print time_now
     subprocess.call("git add .")
     print "added"
-    subprocess.call('git commit -m "new_data_"' + 'time_now')
+    subprocess.call('git commit -m "new_data_"' + time_now)
     print "committed"
     subprocess.call("git push origin master")
     print "updated"
