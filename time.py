@@ -35,10 +35,10 @@ def strip_data(test_type, data):
 def push_to_git():
     time_now = time.strftime("%d/%b/%H:%M")
     time_title = time.strftime("%d%b%Hh%Mm")
+    subprocess.call("mv new.txt test_on_%s.txt" % time_title)
     subprocess.call("git add .")
     subprocess.call('git commit -m "new_data_"' + time_now)
     subprocess.call("git push origin master")
-    subprocess.call("mv new.txt test_on_%s.txt" %time_title)
 
 
 with open("data.txt", 'a') as file_new:
