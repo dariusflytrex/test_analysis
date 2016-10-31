@@ -1,0 +1,424 @@
+test_user_header ... ERROR
+
+======================================================================
+ERROR: test_user_header
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_users.py", line 35, in test_user_header
+    self.assertTrue(Element.is_element_visible(self, 'tagname', "incoming-requests"))
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 71, in is_element_visible
+    if element.is_displayed():
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/window/current/maximize {"windowHandle": "current", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/url {"url": "http://10.0.2.2:3000/", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/658fbcf6-f28c-420a-8e85-b97bf7b4945f/element {"using": "tag name", "sessionId": "658fbcf6-f28c-420a-8e85-b97bf7b4945f", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+----------------------------------------------------------------------
+Ran 1 test in 15.177s
+
+FAILED (errors=1)
+test_user_header ... ERROR
+
+======================================================================
+ERROR: test_user_header
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_users.py", line 35, in test_user_header
+    self.assertTrue(Element.is_element_visible(self, 'tagname', "incoming-requests"))
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 71, in is_element_visible
+    if element.is_displayed():
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/window/current/maximize {"windowHandle": "current", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/url {"url": "http://10.0.2.2:3000/", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd/element {"using": "tag name", "sessionId": "e8b627bb-bfc5-4d4b-b6f2-fdbf4ca690fd", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+----------------------------------------------------------------------
+Ran 1 test in 15.344s
+
+FAILED (errors=1)
+test_user_header ... ERROR
+
+======================================================================
+ERROR: test_user_header
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_users.py", line 35, in test_user_header
+    self.assertTrue(Element.is_element_visible(self, 'tagname', "incoming-requests"))
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 71, in is_element_visible
+    if element.is_displayed():
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/window/current/maximize {"windowHandle": "current", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/url {"url": "http://10.0.2.2:3000/", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/6e8e0865-d13d-4f1c-b0c8-b2818ea040c2/element {"using": "tag name", "sessionId": "6e8e0865-d13d-4f1c-b0c8-b2818ea040c2", "value": "incoming-requests"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+test_users.Users.test_user_header: 15.4968s
+----------------------------------------------------------------------
+Ran 1 test in 15.763s
+
+FAILED (errors=1)
+Failure: ImportError (No module named test_package) ... ERROR
+
+======================================================================
+ERROR: Failure: ImportError (No module named test_package)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\nose\loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "c:\python27\lib\site-packages\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "c:\python27\lib\site-packages\nose\importer.py", line 79, in importFromDir
+    fh, filename, desc = find_module(part, path)
+ImportError: No module named test_package
+
+nose.failure.Failure.runTest: 0.0002s
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+test_add_package_cancel_packages ... ERROR
+test_add_package_happy_flow ... ERROR
+test_add_package_missing_param ... ERROR
+test_add_package_wrong_param_alphabet ... ERROR
+test_add_package_wrong_param_symbols ... ERROR
+
+======================================================================
+ERROR: test_add_package_cancel_packages
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_packages.py", line 120, in test_add_package_cancel_packages
+    Element.click_element(self, 'id', 'sidebar-packages')
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 35, in click_element
+    raise TimeoutException(value + " is not found in given time.")
+TimeoutException: Message: sidebar-packages is not found in given time.
+
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/window/current/maximize {"windowHandle": "current", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/url {"url": "http://10.0.2.2:3000/", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/e99568ce-0059-4b08-b9b4-cdceacb6ed05/element {"using": "id", "sessionId": "e99568ce-0059-4b08-b9b4-cdceacb6ed05", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: test_add_package_happy_flow
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_packages.py", line 161, in test_add_package_happy_flow
+    Element.click_element(self, 'id', "sidebar-packages")
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 35, in click_element
+    raise TimeoutException(value + " is not found in given time.")
+TimeoutException: Message: sidebar-packages is not found in given time.
+
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/window/current/maximize {"windowHandle": "current", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/url {"url": "http://10.0.2.2:3000/", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/df17de0d-f6a6-4616-8f66-cc5e30e9baae/element {"using": "id", "sessionId": "df17de0d-f6a6-4616-8f66-cc5e30e9baae", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: test_add_package_missing_param
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_packages.py", line 36, in test_add_package_missing_param
+    Element.click_element(self, 'id', "sidebar-packages")
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 35, in click_element
+    raise TimeoutException(value + " is not found in given time.")
+TimeoutException: Message: sidebar-packages is not found in given time.
+
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/window/current/maximize {"windowHandle": "current", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/url {"url": "http://10.0.2.2:3000/", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/3b86102b-beea-44eb-be9e-01e3188d41a6/element {"using": "id", "sessionId": "3b86102b-beea-44eb-be9e-01e3188d41a6", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: test_add_package_wrong_param_alphabet
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_packages.py", line 65, in test_add_package_wrong_param_alphabet
+    Element.click_element(self, 'id', "sidebar-packages")
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 35, in click_element
+    raise TimeoutException(value + " is not found in given time.")
+TimeoutException: Message: sidebar-packages is not found in given time.
+
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/window/current/maximize {"windowHandle": "current", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/url {"url": "http://10.0.2.2:3000/", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/d5328cea-d98e-446b-8dd3-2b88363322d8/element {"using": "id", "sessionId": "d5328cea-d98e-446b-8dd3-2b88363322d8", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: test_add_package_wrong_param_symbols
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_packages.py", line 84, in test_add_package_wrong_param_symbols
+    Element.click_element(self, 'id', 'sidebar-packages')
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 35, in click_element
+    raise TimeoutException(value + " is not found in given time.")
+TimeoutException: Message: sidebar-packages is not found in given time.
+
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/window/current/maximize {"windowHandle": "current", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/url {"url": "http://10.0.2.2:3000/", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/2e2ee4dc-fe5d-40e8-b755-6df6a19d606e/element {"using": "id", "sessionId": "2e2ee4dc-fe5d-40e8-b755-6df6a19d606e", "value": "sidebar-packages"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+test_packages.Package.test_add_package_wrong_param_symbols: 18.9331s
+test_packages.Package.test_add_package_cancel_packages: 15.7812s
+test_packages.Package.test_add_package_happy_flow: 15.7795s
+test_packages.Package.test_add_package_missing_param: 15.3449s
+test_packages.Package.test_add_package_wrong_param_alphabet: 14.5313s
+----------------------------------------------------------------------
+Ran 5 tests in 82.227s
+
+FAILED (errors=5)

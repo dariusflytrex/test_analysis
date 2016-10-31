@@ -39,7 +39,7 @@ def push_to_git():
     with open("data.txt", 'a') as file_new:
         data = compile_data()
         count = data.count("\n")
-        file_new.write("new data from %s" % time_now)
+        file_new.write("\nnew data from %s \n" % time_now)
         while count > 0:
             if package in data:
                 data = strip_data(package, data, file_new)
