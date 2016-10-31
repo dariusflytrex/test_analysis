@@ -37,7 +37,7 @@ def push_to_git():
     subprocess.call("git add .")
     subprocess.call('git commit -m "new_data_"' + time_now)
     subprocess.call("git push origin master")
-    subprocess.call("mv new.txt test_on_" + time_now)
+    subprocess.call("mv new.txt test_on_" + time_now +".txt")
 
 
 with open("data.txt", 'a') as file_new:
