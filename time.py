@@ -9,7 +9,7 @@ site = "Site."
 routes = "Routes."
 
 
-def filter_data(target, data="", final_data=""):
+def filter_data(target, final_data=""):
     with open("new.txt", 'r') as file:
         for line in file:
             if target in line:
@@ -29,7 +29,7 @@ def compile_data():
 
 
 def push_to_git():
-    time_now = time.strftime("%d/%b/%H:%M")
+    time_now = time.strftime("%d/%b/%H/%M")
     time_title = time.strftime("%d%b%Hh%Mm")
 
     with open("data.txt", 'a') as file_new:
