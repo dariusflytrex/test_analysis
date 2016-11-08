@@ -1,100 +1,11 @@
-================= new data from 31/Oct/12:57 =================
-test_add_package_wrong_param_symbols:18.9331s
-test_add_package_cancel_packages:15.7812s
-test_add_package_happy_flow:15.7795s
-test_add_package_missing_param:15.3449s
-test_add_package_wrong_param_alphabet:14.5313s
-test_user_header:15.4968s
-================= new data from 08/Nov/16:13 =================
-test_package_header:17.2184s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s
-================= new data from 08/Nov/16:21 =================
-test_package_header:17.2184s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s
-================= new data from 08/Nov/16:27 =================
-test_package_header:17.2184s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s
-================= new data from 08/Nov/16:33 =================
-test_package_header:17.2184s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s
-================= new data from 08/Nov/16:57 =================
-================= new data from 08/Nov/17:02 =================
-test_package_header:17.2184s
-test_dashboard_add_mission_cancel:40.0013s
-test_dashboard_add_mission_happy_flow:19.6825s
-test_dashboard_add_mission_missing_param:18.8007s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s================= new data from 08/Nov/17:04 =================
-test_package_header:17.2184s
-test_dashboard_add_mission_cancel:40.0013s
-test_dashboard_add_mission_happy_flow:19.6825s
-test_dashboard_add_mission_missing_param:18.8007s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s
-================= new data from 08/Nov/17:05 =================
-test_package_header:17.2184s
-test_dashboard_add_mission_cancel:40.0013s
-test_dashboard_add_mission_happy_flow:19.6825s
-test_dashboard_add_mission_missing_param:18.8007s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s
-================= new data from 08/Nov/17:05 =================
-test_package_header:17.2184s
-test_dashboard_add_mission_cancel:40.0013s
-test_dashboard_add_mission_happy_flow:19.6825s
-test_dashboard_add_mission_missing_param:18.8007s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s
-================= new data from 08/Nov/17:07 =================
-test_package_header:17.2184s
-test_dashboard_add_mission_missing_param:18.8007s
-test_user_header:16.9783s
-test_site_header:11.0289s
-test_routes_header:23.9107s
-================= new data from 08/Nov/17:08 =================
-test_package_header:17.2184s
-test_dashboard_add_mission_cancel:40.0013s
-test_dashboard_add_mission_happy_flow:19.6825s
-test_dashboard_add_mission_missing_param:18.8007s
-test_user_header:16.9783s
-test_add_site_cancel:19.4226s
-test_add_site_happy_flow:16.0875s
-test_add_site_missing_param:13.0077s
-test_site_header:11.0289s
-test_routes_header:23.9107s
+================= new data from 08/Nov/17:16 =================
+test_package_header:9.3769s
+test_dashboard_add_mission_cancel:25.6950s
+test_dashboard_add_mission_happy_flow:14.2535s
+test_dashboard_add_mission_missing_param:13.2607s
+test_user_header:10.9692s
+test_add_site_cancel:15.7250s
+test_add_site_happy_flow:13.0981s
+test_site_header:12.7467s
+test_add_site_missing_param:12.4478s
+test_routes_header:11.5560s
