@@ -13,8 +13,8 @@ def filter_data(target, data="", final_data=""):
     with open("new.txt", 'r') as file:
         for line in file:
             if target in line:
-                final_data = str(line).split(target, 1)[1]
-                final_data = final_data[0:final_data.index("\n")]
+                data = str(line).split(target, 1)[1]
+                data = data[0:data.index("\n")]
                 final_data += data + "\n"
     return final_data.replace(" ", "")
 
