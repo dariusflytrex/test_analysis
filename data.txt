@@ -5,7 +5,11 @@ test_add_package_happy_flow:15.7795s
 test_add_package_missing_param:15.3449s
 test_add_package_wrong_param_alphabet:14.5313s
 test_user_header:15.4968s
-================= new data from 08/Nov/16:09 =================
+================= new data from 08/Nov/16:13 =================
 test_package_header:17.2184s
 test_user_header:16.9783s
+test_add_site_cancel:19.4226s
+test_add_site_happy_flow:16.0875s
+test_add_site_missing_param:13.0077s
+test_site_header:11.0289s
 test_routes_header:23.9107s

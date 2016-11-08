@@ -5,7 +5,7 @@ import time
 package = "Package."
 users = "Users."
 dashboard = "Dashboard."
-site = "AddSite."
+site = "Site."
 routes = "Routes."
 
 
