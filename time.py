@@ -9,27 +9,23 @@ site = "Site."
 routes = "Routes."
 
 
-def filter_data(target, data=""):
+def filter_data(target, data="", final_data=""):
     with open("new.txt", 'r') as file:
         for line in file:
             if target in line:
-                data += str(line)
-    return data.replace(" ", "")
+                final_data = str(line).split(target, 1)[1]
+                final_data = final_data[0:final_data.index("\n")]
+                final_data += data + "\n"
+    return final_data.replace(" ", "")
 
 
 def compile_data():
-    return filter_data(package) \
+    data = filter_data(package) \
            + filter_data(dashboard) \
            + filter_data(users) \
            + filter_data(site) \
            + filter_data(routes)
-
-
-def strip_data(test_type, data, file_new):
-    info = data.split(test_type, 1)[1]
-    i = info[0:info.index("\n")]
-    file_new.write(i + "\n")
-    return info
+    return data
 
 
 def push_to_git():
@@ -38,25 +34,12 @@ def push_to_git():
 
     with open("data.txt", 'a') as file_new:
         data = compile_data()
-        count = data.count("\n")
         file_new.write("================= new data from %s =================\n" % time_now)
-        while count > 0:
-            if package in data:
-                data = strip_data(package, data, file_new)
-            elif users in data:
-                data = strip_data(users, data, file_new)
-            elif dashboard in data:
-                data = strip_data(dashboard, data, file_new)
-            elif site in data:
-                data = strip_data(site, data, file_new)
-            elif routes in data:
-                data = strip_data(routes, data, file_new)
-            count -= 1
+        file_new.write(data)
 
     subprocess.call("mv new.txt test_on_%s.txt" % time_title)
     subprocess.call("git add .")
     subprocess.call('git commit -m "new_data_"' + time_now)
     subprocess.call("git push origin master")
-
 
 push_to_git()
