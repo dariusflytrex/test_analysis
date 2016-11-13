@@ -1,0 +1,25 @@
+test_dashboard_add_mission_cancel ... ok (20.8974s)
+test_dashboard_add_mission_happy_flow ... ok (16.9303s)
+test_dashboard_add_mission_missing_param ... ok (19.5986s)
+test_package_header ... ok (16.1890s)
+test_routes_header ... ok (14.2554s)
+test_add_site_cancel ... ok (16.6655s)
+test_add_site_happy_flow ... ok (16.2285s)
+test_add_site_missing_param ... ok (15.4220s)
+test_site_header ... ok (14.2660s)
+test_user_header ... ok (13.9098s)
+
+test_dashboard.Dashboard.test_dashboard_add_mission_cancel: 20.8974s
+test_dashboard.Dashboard.test_dashboard_add_mission_missing_param: 19.5986s
+test_dashboard.Dashboard.test_dashboard_add_mission_happy_flow: 16.9303s
+test_site.Site.test_add_site_cancel: 16.6655s
+test_site.Site.test_add_site_happy_flow: 16.2285s
+test_packages.Package.test_package_header: 16.1890s
+test_site.Site.test_add_site_missing_param: 15.4220s
+test_site.Site.test_site_header: 14.2660s
+test_routes.Routes.test_routes_header: 14.2554s
+test_users.Users.test_user_header: 13.9098s
+----------------------------------------------------------------------
+Ran 10 tests in 168.269s
+
+OK
