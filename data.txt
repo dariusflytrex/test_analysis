@@ -42,5 +42,25 @@ test_add_site_cancel:10.7195s
 test_add_site_happy_flow:9.7177s
 test_add_site_missing_param:8.9507s
 test_routes_header:10.3361s
-================= new data from 10/Nov/00/17 =================
-================= new data from 10/Nov/11/17 =================
+================= new data from 13/Nov/10/55 =================
+test_package_header:7.9097s
+test_dashboard_add_mission_cancel:23.4623s
+test_dashboard_add_mission_happy_flow:16.9329s
+test_dashboard_add_mission_missing_param:13.7237s
+test_user_header:7.6666s
+test_add_site_cancel:9.4304s
+test_add_site_happy_flow:9.0884s
+test_site_header:7.7488s
+test_add_site_missing_param:7.4104s
+test_routes_header:7.0513s
+================= new data from 13/Nov/16/53 =================
+test_package_header:12.6693s
+test_dashboard_add_mission_cancel:21.0000s
+test_dashboard_add_mission_missing_param:18.6350s
+test_dashboard_add_mission_happy_flow:12.8868s
+test_user_header:9.6155s
+test_add_site_cancel:14.2162s
+test_add_site_happy_flow:9.9947s
+test_add_site_missing_param:9.5416s
+test_site_header:9.3493s
+test_routes_header:9.5269s
