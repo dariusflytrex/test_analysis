@@ -18,14 +18,6 @@ x = ["add_site_cancel", "add_site_happy_flow", "add_site_missing_param", "add_mi
      "add_mission_cancel", "add_mission_happy_flow", "user_header", "package_header", "site_header", "routes_header"]
 
 
-
-# def creating_lists(x):])
-#     for i in range(len(x)):
-#         exec ("{} = {}".format(x[i], []))
-#         y.append("%s" % x[i
-#
-
-
 def find_average(test_time, test_name):
     ave = []
     for i in range(len(test_name)):
