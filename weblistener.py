@@ -7,7 +7,9 @@ app = web.application(urls, globals())
 class hooks:
     def POST(self):
         data = web.data()
-        print 'DATA RECEIVED:'
+        if "pull_request" in data:
+            print "YES"
+        print '\nDATA RECEIVED:'
         print data
         print
         return 'OK'
