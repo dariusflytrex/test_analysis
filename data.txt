@@ -108,3 +108,14 @@ test_add_site_missing_param:12.1791s
 test_site_header:10.9332s
 test_add_site_happy_flow:10.8722s
 test_routes_header:8.6908s
+================= new data from 14/Nov/15/24 =================
+test_package_header:8.7345s
+test_dashboard_add_mission_cancel:32.3865s
+test_dashboard_add_mission_happy_flow:22.6806s
+test_dashboard_add_mission_missing_param:18.1295s
+test_user_header:11.1304s
+test_add_site_cancel:14.5464s
+test_add_site_happy_flow:10.7118s
+test_site_header:9.7016s
+test_add_site_missing_param:8.8612s
+test_routes_header:7.8066s

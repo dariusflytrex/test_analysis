@@ -7,7 +7,6 @@ app = web.application(urls, globals())
 class hooks:
     def POST(self):
         data = web.data()
-        print
         print 'DATA RECEIVED:'
         print data
         print
