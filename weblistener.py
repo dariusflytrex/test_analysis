@@ -1,4 +1,6 @@
 import web
+import os
+import json
 
 urls = ('/.*', 'hooks')
 
@@ -6,12 +8,12 @@ app = web.application(urls, globals())
 
 class hooks:
     def POST(self):
-        data = web.data()
-        if "pull_request" in data:
+        pull_request = os.environ.get("pull_request")
+        if "open" in pull_request:
             print "YES"
-        print '\nDATA RECEIVED:'
-        print data
-        print
+            pull_request["locked"] = True
+
+        print "Pull request processed!"
         return 'OK'
 
 if __name__ == '__main__':
