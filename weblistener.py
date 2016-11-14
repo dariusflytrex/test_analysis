@@ -14,7 +14,7 @@ class hooks:
             print "YES"
             pull_request["locked"] = True
         print data
-        print "Pull request processed!"
+        print "++++++++++++++++++++++++++++++++++++Pull request processed!"
         return 'OK'
 
 if __name__ == '__main__':
