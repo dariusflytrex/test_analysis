@@ -40,17 +40,18 @@ def plot_graph(test_time, test_name):
     plt.plot(a, find_average(test_time, test_name), "k-")
     plt.plot(a, extract_last_data(test_time), "ro")
     plt.plot(a, test_time, "b.")
-    txt = '''
-    1: add_site_cancel 2: add_site_happy_flow 3: add_site_missing_param 4: add_mission_missing_param
-    5: add_mission_cancel 6: add_mission_happy_flow 7: user_header 8: package_header
-    9: site_header 10: routes_header
-
-    '''
-    plt.text(.1, .1, txt)
+    # txt = '''
+    # 1: add_site_cancel 2: add_site_happy_flow 3: add_site_missing_param 4: add_mission_missing_param
+    # 5: add_mission_cancel 6: add_mission_happy_flow 7: user_header 8: package_header
+    # 9: site_header 10: routes_header
+    #
+    # '''
+    # plt.text(.1, .1, txt)
     plt.title('Selenium Test Timing Scatter Plot')
     xlabel("test names")
     ylabel("time taken(s)")
-    plt.show()
+    # plt.xlim((-1, len(test_time)1))
+    plt.savefig("test.png")
 
 
 def extract_data(test_time, test_name):

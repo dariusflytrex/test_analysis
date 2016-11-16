@@ -2,6 +2,7 @@ import web
 import json
 
 urls = ('/.*', 'hooks')
+
 app = web.application(urls, globals())
 
 
