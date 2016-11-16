@@ -25,7 +25,7 @@ class hooks:
         parson_json = json.loads(data)
         # Create our issue
         issue = {"body": "# Selenium Test Scatter Plot \n\n"
-                         "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test.png?raw=true) \n\n"
+                         "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test_demo.png?raw=true) \n\n"
                          "Number | Test names \n "
                          "--------|-------- \n"
                          "0 | add_site_cancel \n"
