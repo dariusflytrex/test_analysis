@@ -25,7 +25,8 @@ class hooks:
         parson_json = json.loads(data)
         # Create our issue
         issue = {"body": "# Selenium Test Scatter Plot \n\n"
-                         "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test_demo.png?raw=true) \n\n"
+                         # "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test_demo.png?raw=true) \n\n"
+                         "![test](https://d17oy1vhnax1f7.cloudfront.net/items/453x471q2x293J3L1i3M/Untitled-1.1v0H373B2i1F.jpg) \n\n"
                          "Number | Test names \n "
                          "--------|-------- \n"
                          "0 | add_site_cancel \n"
@@ -50,6 +51,8 @@ class hooks:
             else:
                 print 'Could not create Issue'
                 print 'Response:', r.content
+        else:
+            return "it's not a pull request"
         return comment_address
 
 if __name__ == '__main__':

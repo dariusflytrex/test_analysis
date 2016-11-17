@@ -45,3 +45,7 @@ def make_github_issue(title, body=None, assignee=None, milestone=None, labels=No
         print 'Response:', r.content
 
 make_github_issue('Test', 'Test', 'dariusflytrex', None, ['bug'])
+
+original = "https://github.com/Flytrex/delivery_server/pull/55"
+needed = "https://api.github.com/repos/Flytrex/delivery_server/issues/55"
+v1 = original.replace("://", "://api.").replace("Flytrex", "repos/Flytrex").replace("pull", "issues")
