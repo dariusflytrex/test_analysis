@@ -4,12 +4,6 @@ import matplotlib.pyplot as plt
 from pylab import plot, ylim, xlim, show, xlabel, ylabel, grid
 import numpy as np
 
-
-package = "Package."
-users = "Users."
-dashboard = "Dashboard."
-site = "Site."
-routes = "Routes."
 package_header = []
 add_mission_cancel = []
 add_mission_happy_flow = []
@@ -44,10 +38,11 @@ def extract_last_data(source):
 
 
 def plot_graph(test_time, test_name):
-    a = np.arange(0, len(test_time))
-    plt.plot(a, find_average(test_time, test_name), "k-")
+    a = np.arange(0, len(test_name))
     plt.plot(a, extract_last_data(test_time), "ro")
-    plt.plot(a, test_time, "b.")
+    plt.plot(a, find_average(test_time, test_name), "k-")
+    for xe, ye in zip(a, test_time):
+        plt.scatter([xe] * len(ye), ye)
     # txt = '''
     # 1: add_site_cancel 2: add_site_happy_flow 3: add_site_missing_param 4: add_mission_missing_param
     # 5: add_mission_cancel 6: add_mission_happy_flow 7: user_header 8: package_header
@@ -70,40 +65,32 @@ def extract_data(test_time, test_name):
                     test_time[i].append(float(line.split(":", 1)[1].strip("s\n")))
 
 
-def filter_data(target, final_data=""):
+def compile_data(final_data=""):
     with open("new.txt", 'r') as file:
         for line in file:
-            if target in line:
-                data = str(line).split(target, 1)[1]
-                data = data[0:data.index("\n")]
-                final_data += data + "\n"
-    return final_data.replace(" ", "")
+            if "... ok" in line:
+                data = str(line).replace(" ... ok (", ":").replace(")", "")
+                final_data += data
+    return final_data
 
 
-def compile_data():
-    data = filter_data(package) \
-           + filter_data(dashboard) \
-           + filter_data(users) \
-           + filter_data(site) \
-           + filter_data(routes)
-    return data
-
-
-def push_to_git():
+def updating_data():
     time_now = time.strftime("%d/%b/%H/%M")
-    time_title = time.strftime("%d%b%Hh%Mm")
-
     with open("data.txt", 'a') as file_new:
         data = compile_data()
         file_new.write("================= new data from %s =================\n" % time_now)
         file_new.write(data)
 
+
+def push_to_git():
+    time_title = time.strftime("%d%b%Hh%Mm")
+    time_now = time.strftime("%d/%b/%H/%M")
     subprocess.call("mv new.txt test_on_%s.txt" % time_title)
-    subprocess.call("git add data.txt test.png")
+    subprocess.call("git add .")
     subprocess.call('git commit -m "newdata_"' + time_now)
     subprocess.call("git push origin master")
 
-
-push_to_git()
+updating_data()
 extract_data(y, x)
 plot_graph(y, x)
+push_to_git()
