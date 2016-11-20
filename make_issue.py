@@ -49,3 +49,6 @@ make_github_issue('Test', 'Test', 'dariusflytrex', None, ['bug'])
 original = "https://github.com/Flytrex/delivery_server/pull/55"
 needed = "https://api.github.com/repos/Flytrex/delivery_server/issues/55"
 v1 = original.replace("://", "://api.").replace("Flytrex", "repos/Flytrex").replace("pull", "issues")
+
+#send files using request:
+r = requests.post('http://httpbin.org/post', files={'report.xls': open('report.xls', 'rb')})

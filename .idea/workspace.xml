@@ -4,6 +4,7 @@
     <list default="true" id="d9ea3403-48ca-42d1-b0cd-5a67de29baf9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listen.py" afterPath="$PROJECT_DIR$/listen.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make_issue.py" afterPath="$PROJECT_DIR$/make_issue.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.py" afterPath="$PROJECT_DIR$/time.py" />
     </list>
     <ignored path="deliverance.iws" />
@@ -51,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="time.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="time.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/time.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+            <state relative-caret-position="945">
+              <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -63,28 +64,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_on_17Nov15h36m.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_on_17Nov15h36m.txt">
+      <file leaf-file-name="test_on_13Nov16h53m.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_on_13Nov16h53m.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="new.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_on_20Nov13h39m.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_on_20Nov13h39m.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="listen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="28" column="88" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
+            <state relative-caret-position="324">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -92,21 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_on_20Nov11h23m.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_on_20Nov11h23m.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_on_17Nov15h51m.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_on_17Nov15h51m.txt">
+      <file leaf-file-name="test_on_20Nov12h52m.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_on_20Nov12h52m.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -115,8 +119,8 @@
       <file leaf-file-name="make_issue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/make_issue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="49" column="72" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="72" />
+            <state relative-caret-position="442">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -125,18 +129,28 @@
       <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1171">
-              <caret line="259" column="1" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
+            <state relative-caret-position="1900">
+              <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_on_17Nov14h40m.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_on_17Nov14h40m.txt">
+      <file leaf-file-name="test_on_16Nov16h04m.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_on_16Nov16h04m.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="297">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_on_14Nov11h34m.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_on_14Nov11h34m.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -200,14 +214,14 @@
         <option value="$PROJECT_DIR$/sample.py" />
         <option value="$PROJECT_DIR$/listener.py" />
         <option value="$PROJECT_DIR$/plot_graph.py" />
-        <option value="$PROJECT_DIR$/make_issue.py" />
         <option value="$PROJECT_DIR$/testing.txt" />
         <option value="$PROJECT_DIR$/weblistener.py" />
         <option value="$PROJECT_DIR$/test_on_20Nov12h28m.txt" />
-        <option value="$PROJECT_DIR$/new.txt" />
-        <option value="$PROJECT_DIR$/listen.py" />
+        <option value="$PROJECT_DIR$/make_issue.py" />
         <option value="$PROJECT_DIR$/data.txt" />
+        <option value="$PROJECT_DIR$/listen.py" />
         <option value="$PROJECT_DIR$/time.py" />
+        <option value="$PROJECT_DIR$/new.txt" />
       </list>
     </option>
   </component>
@@ -1114,10 +1128,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blackbox/test.txt" />
-    <entry file="file://$PROJECT_DIR$/blackbox/test_site.py" />
-    <entry file="file://$PROJECT_DIR$/blackbox/test_dashboard.py" />
-    <entry file="file://$PROJECT_DIR$/blackbox/test_users.py" />
     <entry file="file://$PROJECT_DIR$/blackbox/time.py" />
     <entry file="file://$PROJECT_DIR$/test.txt" />
     <entry file="file://$PROJECT_DIR$/today.txt" />
@@ -1237,14 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_on_16Nov16h04m.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_on_17Nov14h40m.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1265,14 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/make_issue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="49" column="72" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1301,44 +1295,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="236" column="19" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listen.py">
+    <entry file="file://$PROJECT_DIR$/make_issue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_on_20Nov12h52m.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_on_20Nov13h39m.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_on_16Nov16h04m.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_on_14Nov11h34m.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
-          <caret line="28" column="88" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.txt">
+    <entry file="file://$PROJECT_DIR$/time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1171">
-          <caret line="259" column="1" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
+        <state relative-caret-position="945">
+          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_on_13Nov16h53m.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time.py">
+    <entry file="file://$PROJECT_DIR$/new.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="675">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
