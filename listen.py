@@ -8,7 +8,7 @@ app = web.application(urls, globals())
 # Authentication for user filing issue (must have read/write access to
 # repository to add issue to)
 USERNAME = 'darius@flytrex.com'
-PASSWORD = '21730Jie'
+PASSWORD = 'Asdf1234%'
 
 
 class hooks:
@@ -26,7 +26,7 @@ class hooks:
         # Create our issue
         issue = {"body": "# Selenium Test Scatter Plot \n\n"
                          # "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test_demo.png?raw=true) \n\n"
-                         "![test](https://d17oy1vhnax1f7.cloudfront.net/items/453x471q2x293J3L1i3M/Untitled-1.1v0H373B2i1F.jpg) \n\n"
+                         "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test.png?raw=true) \n\n"
                          "Number | Test names \n "
                          "--------|-------- \n"
                          "0 | add_site_cancel \n"

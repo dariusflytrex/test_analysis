@@ -1,0 +1,433 @@
+test_dashboard_add_mission_cancel ... ERROR
+test_dashboard_add_mission_happy_flow ... ERROR
+test_dashboard_add_mission_missing_param ... ok (12.6578s)
+test_package_header ... ok (8.2236s)
+test_routes_header ... ok (6.9830s)
+test_add_site_cancel ... ok (10.9054s)
+test_add_site_happy_flow ... ok (8.9868s)
+test_add_site_missing_param ... ok (9.0417s)
+test_site_header ... ok (8.1244s)
+test_user_header ... ok (9.4898s)
+
+======================================================================
+ERROR: test_dashboard_add_mission_cancel
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_dashboard.py", line 263, in test_dashboard_add_mission_cancel
+    self.assertTrue(Element.is_element_visible(self, 'id', "selenium-add-mission-distance"))
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 71, in is_element_visible
+    if element.is_displayed():
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/window/current/maximize {"windowHandle": "current", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/url {"url": "http://10.0.2.2:3000/", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-sidebar-dashboard"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/0/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/0/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "tag name", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "incoming-missions"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/1/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "1"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/1/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "1"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "tag name", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "live-missions"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/2/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "2"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/2/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "2"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "tag name", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "completed-missions"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/3/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "3"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/3/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "3"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "tag name", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "flytrex-interactive-gmap"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/4/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "4"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/4/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "4"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "g-map"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/5/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "5"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/5/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "5"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "mission-add-button"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/6/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "6"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/6/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "6"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-vehicle"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/7/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "7"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/7/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "7"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-route"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/8/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "8"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/8/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "8"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "tag name", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "flytrex-interactive-gmap"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/9/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "9"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/9/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "9"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "g-map"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/10/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "10"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/10/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "10"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-cancel"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/11/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "11"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/11/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "11"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "tag name", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "incoming-missions"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/12/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "12"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/12/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "12"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "mission-add-button"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/13/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/13/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-vehicle"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/14/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "14"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/14/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "14"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-vehicle-name-0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/15/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "15"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/15/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "15"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-vehicle-name-0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/15/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "15"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/15/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "15"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-cancel"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/16/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "16"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/16/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "16"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "tag name", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "incoming-missions"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/17/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "17"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/17/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "17"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "mission-add-button"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/18/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "18"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/18/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "18"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-route"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/19/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "19"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/19/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "19"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-route-name-0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/20/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "20"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/20/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "20"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-route-name-0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/20/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "20"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/20/click {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "20"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element {"using": "id", "sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/7ab495a0-45f2-4353-8e71-c3698a72be1e/element/21/displayed {"sessionId": "7ab495a0-45f2-4353-8e71-c3698a72be1e", "id": "21"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+======================================================================
+ERROR: test_dashboard_add_mission_happy_flow
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\test_dashboard.py", line 230, in test_dashboard_add_mission_happy_flow
+    self.assertTrue(Element.is_element_visible(self, 'id', "selenium-add-mission-distance"))
+  File "C:\Users\Darius\Desktop\Flytrex\Software\delivery_server\blackbox\element.py", line 71, in is_element_visible
+    if element.is_displayed():
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"browserName": "chrome", "name": "basetest", "build": ""}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/window/current/maximize {"windowHandle": "current", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/url {"url": "http://10.0.2.2:3000/", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-sidebar-dashboard"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/0/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/0/click {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "tag name", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "incoming-missions"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/1/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "1"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/1/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "1"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "tag name", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "live-missions"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/2/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "2"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/2/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "2"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "tag name", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "completed-missions"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/3/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "3"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/3/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "3"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "tag name", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "flytrex-interactive-gmap"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/4/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "4"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/4/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "4"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "g-map"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/5/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "5"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/5/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "5"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "mission-add-button"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/6/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "6"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/6/click {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "6"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-vehicle"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/7/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "7"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-vehicle"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/7/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "7"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/7/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "7"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-route"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/8/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "8"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/8/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "8"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "tag name", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "flytrex-interactive-gmap"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/9/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "9"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/9/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "9"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "g-map"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/10/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "10"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/10/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "10"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-vehicle"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/7/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "7"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/7/click {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "7"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-vehicle-name-0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/11/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "11"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/11/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "11"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-vehicle-name-0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/11/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "11"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/11/click {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "11"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-route"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/8/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "8"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/8/click {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "8"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-route-name-0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/12/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "12"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/12/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "12"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-route-name-0"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/12/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "12"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/12/click {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "12"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element {"using": "id", "sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "value": "selenium-add-mission-distance"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: GET http://192.168.99.100:4444/wd/hub/session/ed3299a6-e8c9-4a75-9c11-f1d0567af309/element/13/displayed {"sessionId": "ed3299a6-e8c9-4a75-9c11-f1d0567af309", "id": "13"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------
+
+test_dashboard.Dashboard.test_dashboard_add_mission_happy_flow: 27.6189s
+test_dashboard.Dashboard.test_dashboard_add_mission_cancel: 26.3021s
+test_dashboard.Dashboard.test_dashboard_add_mission_missing_param: 12.6578s
+test_site.Site.test_add_site_cancel: 10.9054s
+test_users.Users.test_user_header: 9.4898s
+test_site.Site.test_add_site_missing_param: 9.0417s
+test_site.Site.test_add_site_happy_flow: 8.9868s
+test_packages.Package.test_package_header: 8.2236s
+test_site.Site.test_site_header: 8.1244s
+test_routes.Routes.test_routes_header: 6.9830s
+----------------------------------------------------------------------
+Ran 10 tests in 135.260s
+
+FAILED (errors=2)

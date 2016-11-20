@@ -234,3 +234,79 @@ test_add_site_happy_flow:8.9868s
 test_add_site_missing_param:9.0417s
 test_site_header:8.1244s
 test_user_header:9.4898s
+================= new data from 20/Nov/11/23 =================
+test_dashboard_add_mission_cancel:19.8878s
+test_dashboard_add_mission_happy_flow:12.3219s
+test_dashboard_add_mission_missing_param:13.1727s
+test_package_header:7.9312s
+test_routes_header:7.3974s
+test_add_site_cancel:9.4739s
+test_add_site_happy_flow:14.6833s
+test_add_site_missing_param:8.9611s
+test_site_header:11.4838s
+test_user_header:9.0169s
+================= new data from 20/Nov/12/30 =================
+test_dashboard_add_mission_happy_flow:17.4215s
+test_dashboard_add_mission_missing_param:11.9534s
+test_package_header:8.2268s
+test_routes_header:6.4307s
+test_add_site_cancel:9.1921s
+test_add_site_happy_flow:8.0521s
+test_add_site_missing_param:10.1686s
+test_site_header:7.6490s
+test_user_header:7.5761s
+================= new data from 20/Nov/12/40 =================
+test_dashboard_add_mission_cancel:17.8880s
+test_dashboard_add_mission_happy_flow:19.4650s
+test_dashboard_add_mission_missing_param:13.8457s
+test_package_header:10.1814s
+test_routes_header:10.3797s
+test_add_site_cancel:9.5817s
+test_add_site_happy_flow:9.3110s
+test_add_site_missing_param:7.5332s
+test_site_header:8.2268s
+test_user_header:7.8373s
+================= new data from 20/Nov/12/52 =================
+test_dashboard_add_mission_cancel:10.5295s
+test_dashboard_add_mission_happy_flow:13.1345s
+test_dashboard_add_mission_missing_param:11.8830s
+test_package_header:7.9377s
+test_routes_header:7.2556s
+test_add_site_cancel:9.2168s
+test_add_site_happy_flow:8.9694s
+test_add_site_missing_param:7.7384s
+test_site_header:8.2394s
+test_user_header:7.5567s
+================= new data from 20/Nov/13/39 =================
+test_dashboard_add_mission_cancel:10.5295s
+test_dashboard_add_mission_happy_flow:13.1345s
+test_dashboard_add_mission_missing_param:11.8830s
+test_package_header:7.9377s
+test_routes_header:7.2556s
+test_add_site_cancel:9.2168s
+test_add_site_happy_flow:8.9694s
+test_add_site_missing_param:7.7384s
+test_site_header:8.2394s
+test_user_header:7.5567s
+================= new data from 20/Nov/16/41 =================
+test_dashboard_add_mission_cancel:10.5295s
+test_dashboard_add_mission_happy_flow:13.1345s
+test_dashboard_add_mission_missing_param:11.8830s
+test_package_header:7.9377s
+test_routes_header:7.2556s
+test_add_site_cancel:9.2168s
+test_add_site_happy_flow:8.9694s
+test_add_site_missing_param:7.7384s
+test_site_header:8.2394s
+test_user_header:7.5567s
+================= new data from 20/Nov/16/45 =================
+test_dashboard_add_mission_cancel:12.4701s
+test_dashboard_add_mission_happy_flow:13.7308s
+test_dashboard_add_mission_missing_param:13.5847s
+test_package_header:8.5023s
+test_routes_header:7.9037s
+test_add_site_cancel:9.9803s
+test_add_site_happy_flow:12.9761s
+test_add_site_missing_param:9.6070s
+test_site_header:8.8978s
+test_user_header:8.7386s

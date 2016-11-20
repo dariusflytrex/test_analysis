@@ -88,7 +88,7 @@ def push_to_git():
     subprocess.call("mv new.txt test_on_%s.txt" % time_title)
     subprocess.call("git add .")
     subprocess.call('git commit -m "newdata_"' + time_now)
-    subprocess.call("git push origin master")
+    subprocess.call("git push origin darius")
 
 updating_data()
 extract_data(y, x)
