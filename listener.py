@@ -1,67 +1,30 @@
-import web
-import json
 import requests
+import json
 
-urls = ('/.*', 'hooks')
-
-app = web.application(urls, globals())
-# Authentication for user filing issue (must have read/write access to
-# repository to add issue to)
 USERNAME = 'darius@flytrex.com'
-PASSWORD = '21730Jie'
+PASSWORD = 'Asdf1234%'
 
-# The repository to add this issue to
-REPO_OWNER = 'dariusflytrex'
-REPO_NAME = 'test_analysis'
-
-
-def make_github_issue(title, body=None, assignee=None, milestone=None, labels=None):
-    '''Create an issue on github.com using the given parameters.'''
-    # Our url to create issues via POST
-    url = 'https://api.github.com/repos/%s/%s/issues' % (REPO_OWNER, REPO_NAME)
-    # Create an authenticated session to create the issue
-    session = requests.Session()
-    session.auth = (USERNAME, PASSWORD)
-    # session = requests.session(auth=(USERNAME, PASSWORD))
-    # Create our issue
-    issue = {'title': title,
-             'body': body,
-             'assignee': assignee,
-             'milestone': milestone,
-             'labels': labels}
-    # Add the issue to our repository
-    r = session.post(url, json.dumps(issue))
-    if r.status_code == 201:
-        print 'Successfully created Issue "%s"' % title
-    else:
-        print 'Could not create Issue "%s"' % title
-        print 'Response:', r.content
-
-
-class hooks:
-
-    def GET(self):
-        parson_json = json.loads(web.data())
-        header = web.header()
-        print header
-        action = json.loads(header)
-        if 'pull_request' in action['X-GitHub-Event']:
-            print action
-        pull_request = parson_json['pull_request']
-        if 'opened' in parson_json['action']:
-            print pull_request['head']['sha']
-
-    def POST(self):
-        data = web.data()
-        parson_json = json.loads(data)
-        pull_request = parson_json['pull_request']
-        pull_request['head']['sha'] = 'pending'
-        item = {"body": "# Selenium Test Scatter Plot (https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1'')"}
-        response = requests.post("https://api.github.com/repos/dariusflytrex/test_analysis/pull_request/1", data=item)
-        # status = {
-        #           'state': 'pending',
-        #           }
-        return pull_request['base']['repo']['full_name']
-
-if __name__ == '__main__':
-    app.run()
+issue = {"body": "# Selenium Test Scatter Plot \n\n"
+                 "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test.png?raw=true) \n\n"
+                 "Number | Test names \n "
+                 "--------|-------- \n"
+                 "0 | add_site_cancel \n"
+                 "1 | add_site_happy_flow\n"
+                 "2 | add_site_missing_param\n"
+                 "3 | add_mission_missing_param\n"
+                 "4 | add_mission_cancel\n"
+                 "5 | add_mission_happy_flow\n"
+                 "6 | user_header\n"
+                 "7 | package_header\n"
+                 "8 | site_header\n"
+                 "9 |routes_header\n"
+         }
+session = requests.Session()
+session.auth = (USERNAME, PASSWORD)
+# Add the issue to our repository
+r = session.post("https://api.github.com/repos/dariusflytrex/test_analysis/issues/9/comments", json.dumps(issue))
+if r.status_code == 201:
+    print 'Successfully created Issue'
+else:
+    print 'Could not create Issue'
+    print 'Response:', r.content
