@@ -3,6 +3,7 @@ import time
 import matplotlib.pyplot as plt
 from pylab import plot, ylim, xlim, show, xlabel, ylabel, grid
 import numpy as np
+from listen import PULL_NUMBER
 
 package_header = []
 add_mission_cancel = []
@@ -54,7 +55,7 @@ def plot_graph(test_time, test_name):
     xlabel("test names")
     ylabel("time taken(s)")
     # plt.xlim((-1, len(test_time)1))
-    plt.savefig("test.png")
+    plt.savefig("test_%s.png" % PULL_NUMBER)
 
 
 def extract_data(test_time, test_name):

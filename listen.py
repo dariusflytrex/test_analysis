@@ -9,7 +9,7 @@ app = web.application(urls, globals())
 # repository to add issue to)
 USERNAME = 'darius@flytrex.com'
 PASSWORD = 'Asdf1234%'
-
+PULL_NUMBER = ''
 
 class hooks:
 
@@ -23,10 +23,11 @@ class hooks:
     def POST(self):
         data = web.data()
         parson_json = json.loads(data)
+        PULL_NUMBER = parson_json['number']
         # Create our issue
         issue = {"body": "# Selenium Test Scatter Plot \n\n"
                          # "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test_demo.png?raw=true) \n\n"
-                         "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test.png?raw=true) \n\n"
+                         "![test](https://github.com/dariusflytrex/test_analysis/blob/darius/test_%s.png?raw=true) \n\n"
                          "Number | Test names \n "
                          "--------|-------- \n"
                          "0 | add_site_cancel \n"
@@ -39,6 +40,7 @@ class hooks:
                          "7 | package_header\n"
                          "8 | site_header\n"
                          "9 |routes_header\n"
+                         % PULL_NUMBER
                  }
         if "pull_request" in parson_json:
             comment_address = parson_json['pull_request']['comments_url']
@@ -52,7 +54,7 @@ class hooks:
                 print 'Could not create Issue'
                 print 'Response:', r.content
         else:
-            return "it's not a pull request"
+            return "This is not a pull request"
         return comment_address
 
 if __name__ == '__main__':
